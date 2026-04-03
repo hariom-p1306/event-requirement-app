@@ -1,45 +1,82 @@
-# Event Requirement Posting App 🚀
+# 🚀 Event Requirement Posting App
 
-A full-stack application to post event requirements with dynamic multi-step form.
+A full-stack application to create and manage event requirements using a dynamic multi-step form.
+
+---
 
 ## 🔥 Features
 
-- Multi-step form (Event Basics → Category Fields)
-- Dynamic fields based on category (Planner / Performer / Crew)
+- Multi-step form (Event Basics → Category-specific fields)
+- Dynamic UI based on selected category (Planner / Performer / Crew)
 - REST API integration
-- Data stored in MongoDB
-- Clean UI with Next.js
+- Data stored in MongoDB Atlas
+- Clean and responsive UI
+
+---
 
 ## 🛠️ Tech Stack
 
-Frontend:
+### Frontend
 - Next.js
 - Tailwind CSS
 
-Backend:
+### Backend
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
 
-## ⚙️ How it works
+---
 
-1. User fills event details
-2. Selects category (Planner / Performer / Crew)
-3. Dynamic fields appear
-4. Data submitted to backend API
-5. Stored in MongoDB
+## ⚙️ How it Works
+
+1. User fills basic event details  
+2. Selects a category (Planner / Performer / Crew)  
+3. Dynamic fields appear based on selection  
+4. Data is sent to backend API  
+5. Stored in MongoDB database  
+
+---
 
 ## 📡 API Endpoint
 
+
 POST /api/events
+
+
+---
 
 ## 🚀 Live Demo
 
-Frontend: [Add your Vercel link here]  
-Backend: [Add your Render link here]
+- 🌐 Frontend: https://event-requirement-app.vercel.app/
+- ⚙️ Backend: https://event-requirement-app.onrender.com
+
+---
 
 ## 🎥 Demo Video
 
-[Add your screen recording link here]
+https://drive.google.com/file/d/1podAKGGLPcuSjgPpclSb4e1RN2twWWIA/view?usp=sharing
+
+---
 
 ## 📂 Project Structure
+
+
+event-app/
+├── frontend/ # Next.js app
+└── backend/ # Express API
+
+
+---
+
+## 🧠 Key Highlights
+
+- Dynamic form rendering based on category  
+- Clean separation of frontend and backend  
+- Structured data storage with flexible schema  
+- Full-stack deployment (Vercel + Render)
+
+---
+
+## 🙌 Author
+
+**Hariom Patel**
